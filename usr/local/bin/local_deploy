@@ -1,0 +1,15 @@
+
+#!/usr/bin/bash
+
+# https://qiita.com/nagahama/items/2fdc820791bee5d564ca
+
+sudo yum update -y
+sudo amazon-linux-extras install epel
+sudo yum -y install epel-release
+
+sudo rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+
+sudo yum install -y php80 php80-php php80-php-fpm
+sudo yum install -y php80-php-mbstring php80-php-openssl php80-php-xml php80-unzip
+
+sudo ln -s /usr/bin/php80 /usr/bin/php
