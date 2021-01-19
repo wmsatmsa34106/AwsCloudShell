@@ -4,7 +4,7 @@
 # https://qiita.com/nagahama/items/2fdc820791bee5d564ca
 
 sudo yum update -y
-sudo amazon-linux-extras install epel
+yes | sudo amazon-linux-extras install epel
 sudo yum -y install epel-release
 
 sudo rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm

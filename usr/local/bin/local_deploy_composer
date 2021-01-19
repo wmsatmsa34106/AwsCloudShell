@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+pushd ~/usr/local/tmp/
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+
+mv composer.phar ~/usr/local/bin/composer
+
+popd

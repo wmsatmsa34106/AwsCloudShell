@@ -16,3 +16,5 @@ _org_path=${PATH}
 PATH=~/usr/local/bin:${_org_path}
 
 export PATH
+
+usr/local/bin/local_deploy 
